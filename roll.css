@@ -112,14 +112,15 @@ h2 {
 }
 
 select {
-    padding: 2px;
+    padding: 5px;
     border-radius: 0;
+    text-align: right;
     background-color: lightgoldenrodyellow;
     border: 1px solid lightgoldenrodyellow;
 }
 
 #roll-btn {
-    width: 220px;
+    width: 240px;
     padding: 20px;
     margin: 10px 0 0 0;
     cursor: pointer;
