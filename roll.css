@@ -43,7 +43,7 @@ body, html {
 
 html {
     font-family: arial;
-    font-size: 16px;
+    font-size: 20px;
     color: #444;
 }
 
@@ -96,11 +96,6 @@ h2 {
     background-color: white;
 }
 
-#result-box {
-    display: none;
-    background-image: url("bg.avif");
-}
-
 .dice-options {
     display: grid;
     grid-template-columns: auto auto;
@@ -139,4 +134,23 @@ select {
 
 .other-box {
     text-align: center;
+}
+
+#result-box {
+    display: none;
+    background-image: url("bg.avif");
+}
+
+#result-box section table {
+    width: 100%;
+}
+
+#result-box section table thead tr th, #result-box section table tbody tr td {
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+#result-box section table tbody tr td span {
+    display: inline-block;
+    padding: 0 5px;
 }

@@ -92,6 +92,7 @@ const showResultBox = () => {
 const rollMyDice = () => {
     if(validRolls()) {
         showResultBox();
+        window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
     } else {
         alert('Select at least one dice combination before rolling.');
     }
