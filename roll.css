@@ -154,3 +154,9 @@ select {
     display: inline-block;
     padding: 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+    #dice-box, #result-box {
+        font-size: 2rem;
+    }
+}
