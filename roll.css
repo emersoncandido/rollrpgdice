@@ -157,6 +157,6 @@ select {
 
 @media screen and (max-width: 768px) {
     #dice-box, #result-box {
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
 }
